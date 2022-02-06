@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/NavBar";
 import Home from "./pages/Home/index";
 import Login from "./pages/login/index";
+import Store from "./pages/Store/index";
 
 function App() {
   const [user, setUser] = React.useState(localStorage.getItem("email"));
@@ -22,8 +23,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        {/* <Route path="/Store" component={Store} /> */}
-        {/* <Route path="/storeAdmin" component={storeAdmin} /> */}
+        <Route path="/store" element={<Store />} />
+
         <Route
           exact
           path="/login"
