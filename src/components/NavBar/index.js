@@ -20,7 +20,7 @@ const navBar = () => {
           <NavLink to="/login" activeStyle>
             Login
           </NavLink>
-          <NavLink to="/search" activeStyle>
+          <NavLink to="/store" activeStyle>
             Search for a book
           </NavLink>
           <NavLink to="/signup" activeStyle>
