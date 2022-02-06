@@ -19,13 +19,16 @@ const Home = () => {
       <h1>Welcome to books store</h1>
       <div className="cardsContainer">
         {topselling.length ? (
-          topselling.map((book) => (
-            <Cards
-              author={book.author}
-              title={book.title}
-              description={book.description}
-            />
-          ))
+          topselling.map(
+            (book, index) =>
+              index < 6 && (
+                <Cards
+                  author={book.author}
+                  title={book.title}
+                  description={book.description}
+                />
+              )
+          )
         ) : (
           <h1>Loading ...</h1>
         )}
