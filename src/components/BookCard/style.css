@@ -1,4 +1,4 @@
-.cardContainer {
+.cardContainer1 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -8,11 +8,16 @@
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   align-items: center;
+  margin: 25px;
+  opacity: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .cartIcon {
   position: absolute;
-  /* left: 0; */
+  top: 10px;
   right: 10px;
   padding-top: 10px;
 }
@@ -29,11 +34,19 @@
 }
 
 .infoContainer {
+  font-weight: 200;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-height: 70%;
+  max-width: 70%;
+  text-align: center;
+  align-content: stretch;
+  background: content-box;
+  background-color: black;
+  opacity: 70%;
+  color: white;
+  margin-top: 25%;
 }
 
 .apContainer {
