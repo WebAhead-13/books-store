@@ -1,14 +1,20 @@
 import BookCard from "../../components/BookCard"
+import PriceFilter from "../../components/PriceFilter/PriceFilter"
 // const data = require('../../database/database')
 import {data} from "../../database/database"
+import React from "react";
 
 function Store() {
-    
+  const [priceFilter, setPriceFilter] = React.useState([10, 999]);
     return (<div style={{display:'flex', flexWrap:'wrap'}}>
-         {data.map((book) =>{
+        <PriceFilter 
+    priceFilter={priceFilter}
+    setPriceFilter={setPriceFilter}
+    />
+         {data.filter((book) => book.price >= priceFilter[0] && book.price <= priceFilter[1])
+         .map((book) =>{
              return <BookCard image={book.book_image} title={book.title} author={book.author} description={book.description} price={book.price} onClick={() => alert ("Added to Cart") } />
         })}
-        <BookCard image={'https://robcubbon.com/wp-content/uploads/2012/08/e-book-example.jpg'} title={"MAhmoud"} author={"MahmoudDiab"} price={'99999$'} description={'you will not see this shit in any place'}/>
     </div>)
 }
 

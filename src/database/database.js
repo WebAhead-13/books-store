@@ -78,7 +78,7 @@ export const data = [
     publisher: "Viking",
     description:
       "Nora Seed finds a library beyond the edge of the universe that contains books with multiple possibilities of the lives one could have lived.",
-    price: "55.00",
+    price: "65.00",
     title: "THE MIDNIGHT LIBRARY",
     author: "Matt Haig",
     contributor: "by Matt Haig",
@@ -146,7 +146,7 @@ export const data = [
     publisher: "Viking",
     description:
       "Two friends who escaped from a juvenile work farm take Emmett Watson on an unexpected journey to New York City in 1954.",
-    price: "55.00",
+    price: "85.00",
     title: "THE LINCOLN HIGHWAY",
     author: "Amor Towles",
     contributor: "by Amor Towles",
@@ -218,7 +218,7 @@ export const data = [
     publisher: "Little, Brown",
     description:
       "As the Paris Olympics draw near, a mother and daughter, who are champion horse riders, compete against each other.",
-    price: "55.00",
+    price: "35.00",
     title: "THE HORSEWOMAN",
     author: "James Patterson and Mike Lupica",
     contributor: "by James Patterson and Mike Lupica",
@@ -282,7 +282,7 @@ export const data = [
     publisher: "Simon & Schuster",
     description:
       "Hannah Hall discovers truths about her missing husband and bonds with his daughter from a previous relationship.",
-    price: "55.00",
+    price: "50.00",
     title: "THE LAST THING HE TOLD ME",
     author: "Laura Dave",
     contributor: "by Laura Dave",
@@ -354,7 +354,7 @@ export const data = [
     publisher: "Doubleday",
     description:
       "The second book in the Whistler series. Investigator Lacy Stoltz goes after a serial killer and closes in on a sitting judge.",
-    price: "55.00",
+    price: "40.00",
     title: "THE JUDGE'S LIST",
     author: "John Grisham",
     contributor: "by John Grisham",
@@ -486,7 +486,7 @@ export const data = [
     publisher: "Ballantine",
     description:
       "A woman whose life spans 100 years recounts personal and historical events through letters to someone she loves.",
-    price: "55.00",
+    price: "30.00",
     title: "VIOLETA",
     author: "Isabel Allende",
     contributor: "by Isabel Allende",
@@ -550,7 +550,7 @@ export const data = [
     publisher: "Dutton",
     description:
       "An English model stumbles upon messages that might uncover the truth behind a decades-old murder in the Frick family.",
-    price: "55.00",
+    price: "13.00",
     title: "THE MAGNOLIA PALACE",
     author: "Fiona Davis",
     contributor: "by Fiona Davis",
@@ -614,7 +614,7 @@ export const data = [
     publisher: "Harper",
     description:
       "After a ship explodes, 10 people struggling to survive pull a man who claims to be the Lord out of the sea.",
-    price: "55.00",
+    price: "43.00",
     title: "THE STRANGER IN THE LIFEBOAT",
     author: "Mitch Albom",
     contributor: "by Mitch Albom",

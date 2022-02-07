@@ -1,0 +1,10 @@
+fieldset {
+  margin-left: 0px;
+  display: inline;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background: whitesmoke;
+  opacity: 60%;
+}
