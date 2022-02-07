@@ -1,0 +1,6 @@
+.adsOn {
+  right: 10%;
+  background-color: #bdacac;
+  display: flex;
+  flex-wrap: wrap;
+}

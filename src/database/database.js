@@ -10,7 +10,7 @@ export const data = [
     publisher: "Ballantine",
     description:
       "When a wealthy man is found dead in his room, a maid at the Regency Grand Hotel becomes a lead suspect.",
-    price: "55.00",
+    price: 55.0,
     title: "THE MAID",
     author: "Nita Prose",
     contributor: "by Nita Prose",
@@ -78,7 +78,7 @@ export const data = [
     publisher: "Viking",
     description:
       "Nora Seed finds a library beyond the edge of the universe that contains books with multiple possibilities of the lives one could have lived.",
-    price: "55.00",
+    price: 65.0,
     title: "THE MIDNIGHT LIBRARY",
     author: "Matt Haig",
     contributor: "by Matt Haig",
@@ -146,7 +146,7 @@ export const data = [
     publisher: "Viking",
     description:
       "Two friends who escaped from a juvenile work farm take Emmett Watson on an unexpected journey to New York City in 1954.",
-    price: "55.00",
+    price: 85.0,
     title: "THE LINCOLN HIGHWAY",
     author: "Amor Towles",
     contributor: "by Amor Towles",
@@ -218,7 +218,7 @@ export const data = [
     publisher: "Little, Brown",
     description:
       "As the Paris Olympics draw near, a mother and daughter, who are champion horse riders, compete against each other.",
-    price: "55.00",
+    price: 35.0,
     title: "THE HORSEWOMAN",
     author: "James Patterson and Mike Lupica",
     contributor: "by James Patterson and Mike Lupica",
@@ -282,7 +282,7 @@ export const data = [
     publisher: "Simon & Schuster",
     description:
       "Hannah Hall discovers truths about her missing husband and bonds with his daughter from a previous relationship.",
-    price: "55.00",
+    price: 50.0,
     title: "THE LAST THING HE TOLD ME",
     author: "Laura Dave",
     contributor: "by Laura Dave",
@@ -354,7 +354,7 @@ export const data = [
     publisher: "Doubleday",
     description:
       "The second book in the Whistler series. Investigator Lacy Stoltz goes after a serial killer and closes in on a sitting judge.",
-    price: "55.00",
+    price: 55.0,
     title: "THE JUDGE'S LIST",
     author: "John Grisham",
     contributor: "by John Grisham",
@@ -426,7 +426,7 @@ export const data = [
     publisher: "MCD",
     description:
       "A crime writer re-examines his work after moving into a house where a pair of briefly notorious murders took place.",
-    price: "55.00",
+    price: 55.0,
     title: "DEVIL HOUSE",
     author: "John Darnielle",
     contributor: "by John Darnielle",
@@ -486,7 +486,7 @@ export const data = [
     publisher: "Ballantine",
     description:
       "A woman whose life spans 100 years recounts personal and historical events through letters to someone she loves.",
-    price: "55.00",
+    price: 13.0,
     title: "VIOLETA",
     author: "Isabel Allende",
     contributor: "by Isabel Allende",
@@ -550,7 +550,7 @@ export const data = [
     publisher: "Dutton",
     description:
       "An English model stumbles upon messages that might uncover the truth behind a decades-old murder in the Frick family.",
-    price: "55.00",
+    price: 55.0,
     title: "THE MAGNOLIA PALACE",
     author: "Fiona Davis",
     contributor: "by Fiona Davis",
@@ -614,7 +614,7 @@ export const data = [
     publisher: "Harper",
     description:
       "After a ship explodes, 10 people struggling to survive pull a man who claims to be the Lord out of the sea.",
-    price: "55.00",
+    price: 55.0,
     title: "THE STRANGER IN THE LIFEBOAT",
     author: "Mitch Albom",
     contributor: "by Mitch Albom",
@@ -674,7 +674,7 @@ export const data = [
     publisher: "Atria",
     description:
       "A battered wife raised in a violent home attempts to halt the cycle of abuse.",
-    price: "55.00",
+    price: 55.0,
     title: "IT ENDS WITH US",
     author: "Colleen Hoover",
     contributor: "by Colleen Hoover",
@@ -751,7 +751,7 @@ export const data = [
     publisher: "Grand Central",
     description:
       "Lowen Ashleigh is hired by the husband of an injured writer to complete her popular series and uncovers a horrifying truth.",
-    price: "55.00",
+    price: 55.0,
     title: "VERITY",
     author: "Colleen Hoover",
     contributor: "by Colleen Hoover",
@@ -823,7 +823,7 @@ export const data = [
     publisher: "Washington Square/Atria",
     description:
       "A movie icon recounts stories of her loves and career to a struggling magazine writer.",
-    price: "55.00",
+    price: 55.0,
     title: "THE SEVEN HUSBANDS OF EVELYN HUGO",
     author: "Taylor Jenkins Reid",
     contributor: "by Taylor Jenkins Reid",
@@ -895,7 +895,7 @@ export const data = [
     publisher: "Atria",
     description:
       "A casual sexual relationship between Tate and Miles becomes more complicated than they expected.",
-    price: "55.00",
+    price: 55.0,
     title: "UGLY LOVE",
     author: "Colleen Hoover",
     contributor: "by Colleen Hoover",
@@ -960,7 +960,7 @@ export const data = [
     publisher: "Berkley",
     description:
       "A young professor agrees to pretend to be a third-year Ph.D. candidate’s boyfriend.",
-    price: "55.00",
+    price: 55.0,
     title: "THE LOVE HYPOTHESIS",
     author: "Ali Hazelwood",
     contributor: "by Ali Hazelwood",
@@ -1024,7 +1024,7 @@ export const data = [
     publisher: "Ecco",
     description:
       "A reimagining of Homer’s “Iliad” that is narrated by Achilles' companion Patroclus.",
-    price: "55.00",
+    price: 55.0,
     title: "THE SONG OF ACHILLES",
     author: "Madeline Miller",
     contributor: "by Madeline Miller",
@@ -1099,7 +1099,7 @@ export const data = [
     publisher: "Putnam",
     description:
       "In a quiet town on the North Carolina coast in 1969, a young woman who survived alone in the marsh becomes a murder suspect.",
-    price: "55.00",
+    price: 55.0,
     title: "WHERE THE CRAWDADS SING",
     author: "Delia Owens",
     contributor: "by Delia Owens",
@@ -1184,7 +1184,7 @@ export const data = [
     publisher: "Berkley",
     description:
       "Opposites Poppy and Alex meet to vacation together one more time in hopes of saving their relationship.",
-    price: "55.00",
+    price: 55.0,
     title: "PEOPLE WE MEET ON VACATION",
     author: "Emily Henry",
     contributor: "by Emily Henry",
@@ -1248,7 +1248,7 @@ export const data = [
     publisher: "Atria",
     description:
       "Ben and Fallon meet on the same day each year but a possible untruth might spoil their relationship.",
-    price: "55.00",
+    price: 55.0,
     title: "NOVEMBER 9",
     author: "Colleen Hoover",
     contributor: "by Colleen Hoover",
@@ -1317,7 +1317,7 @@ export const data = [
     publisher: "Celadon",
     description:
       "Theo Faber looks into the mystery of a famous painter who stops speaking after shooting her husband.",
-    price: "55.00",
+    price: 55.0,
     title: "THE SILENT PATIENT",
     author: "Alex Michaelides",
     contributor: "by Alex Michaelides",
@@ -1394,7 +1394,7 @@ export const data = [
     publisher: "Abrams",
     description:
       "A woman travels through time — from the 1970s to the pre-Civil War era — in this adaptation of Butler’s 1979 novel.",
-    price: "55.00",
+    price: 55.0,
     title: "KINDRED",
     author: "Octavia E Butler, Damian Duffy and John Jennings",
     contributor: "by Octavia E. Butler, Damian Duffy and John Jennings",
@@ -1455,7 +1455,7 @@ export const data = [
     publisher: "HarperCollins",
     description:
       "Dr. Trayaurus and Dan must prevent five powerful crystals from falling into the hands of their arch–nemesis, Denton.",
-    price: "55.00",
+    price: 55.0,
     title: "DANTDM: TRAYAURUS AND THE ENCHANTED CRYSTAL",
     author: "Dan Middleton, Doreen Mulryan and Mike Love",
     contributor: "by Dan Middleton, Doreen Mulryan and Mike Love",
@@ -1516,7 +1516,7 @@ export const data = [
     publisher: "DC Comics",
     description:
       "This critically acclaimed story from 1988 offers a possible origin for the Joker.",
-    price: "55.00",
+    price: 55.0,
     title: "BATMAN: THE KILLING JOKE",
     author: "Alan Moore and Brian Bolland",
     contributor: "by Alan Moore and Brian Bolland",
@@ -1577,7 +1577,7 @@ export const data = [
     publisher: "Candlewick",
     description:
       "The story of Snow White is reimagined here as a noir tale set in Manhattan during the Great Depression.",
-    price: "55.00",
+    price: 55.0,
     title: "SNOW WHITE",
     author: "Matt Phelan",
     contributor: "by Matt Phelan",
@@ -1638,7 +1638,7 @@ export const data = [
     publisher: "Houghton Mifflin Harcourt",
     description:
       "This collection features contributions from Chris Ware, Cece Bell and others.",
-    price: "55.00",
+    price: 55.0,
     title: "THE BEST AMERICAN COMICS 2016",
     author: "edited  Roz Chast and Bill Kartalopoulos",
     contributor: "edited by Roz Chast and Bill Kartalopoulos",
@@ -1699,7 +1699,7 @@ export const data = [
     publisher: "Abrams",
     description:
       "The Texas Revolution is the latest subject in this nonfiction series.",
-    price: "55.00",
+    price: 55.0,
     title: "NATHAN HALE’S HAZARDOUS TALES: ALAMO ALL–STARS",
     author: "Nathan Hale",
     contributor: "by Nathan Hale",
@@ -1760,7 +1760,7 @@ export const data = [
     publisher: "Drawn & Quarterly",
     description:
       "The author travels with a team of journalists as they interview civilians and refugees from various war zones.",
-    price: "55.00",
+    price: 55.0,
     title: "ROLLING BLACKOUTS: DISPATCHES FROM TURKEY, SYRIA AND IRAQ",
     author: "Sarah Glidden",
     contributor: "by Sarah Glidden",
@@ -1820,7 +1820,7 @@ export const data = [
     primary_isbn13: "9781484737842",
     publisher: "Disney-Lucasfilm",
     description: "A new adaptation of the first three movies.",
-    price: "55.00",
+    price: 55.0,
     title: "STAR WARS: THE ORIGINAL TRILOGY",
     author: "the staff of the Lucas Film Book Group",
     contributor: "by the staff of the Lucas Film Book Group",
@@ -1881,7 +1881,7 @@ export const data = [
     publisher: "Little, Brown",
     description:
       'In the tradition of "One Thousand and One Nights," this book depicts a variety of tales and myths centered on female storytellers in an imaginary world.',
-    price: "55.00",
+    price: 55.0,
     title: "ONE HUNDRED NIGHTS OF HERO",
     author: "Isabel Greenberg",
     contributor: "by Isabel Greenberg",
@@ -1942,7 +1942,7 @@ export const data = [
     publisher: "Dark Horse",
     description:
       "In this sequel to Palahniuk’s 1996 novel, Tyler Durden re-emerges to create mayhem once again.",
-    price: "55.00",
+    price: 55.0,
     title: "FIGHT CLUB 2",
     author: "Chuck Palahniuk and Cameron Stewart",
     contributor: "by Chuck Palahniuk and Cameron Stewart",
@@ -2003,7 +2003,7 @@ export const data = [
     publisher: "VIZ Media",
     description:
       "The adaptation of several story arcs from Nintendo’s Zelda video game series continues. In this volume, the Oracle of Seasons.",
-    price: "55.00",
+    price: 55.0,
     title: "THE LEGEND OF ZELDA: LEGENDARY EDITION, VOL. 2",
     author: "Akira Himekawa",
     contributor: "by Akira Himekawa",
@@ -2064,7 +2064,7 @@ export const data = [
     publisher: "VIZ Media",
     description:
       "Saitama sneaks into a combat tournament in order to hone his martial arts skills.",
-    price: "55.00",
+    price: 55.0,
     title: "ONE-PUNCH MAN, VOL. 10",
     author: "ONE and Yusuke Murata",
     contributor: "by ONE and Yusuke Murata",
@@ -2125,7 +2125,7 @@ export const data = [
     publisher: "Seven Seas Entertainment",
     description:
       "A girl is chosen to be the apprentice — and the bride — of a powerful wizard. In this volume, Chise makes a friend.",
-    price: "55.00",
+    price: 55.0,
     title: "THE ANCIENT MAGUS' BRIDE, VOL. 6",
     author: "Kore Yamazaki",
     contributor: "by Kore Yamazaki",
@@ -2186,7 +2186,7 @@ export const data = [
     publisher: "VIZ Media",
     description:
       "Ken Kaneki is attacked by a monster, but survives the encounter and becomes the first half-human, half-ghoul hybrid.",
-    price: "55.00",
+    price: 55.0,
     title: "TOKYO GHOUL, VOL. 1",
     author: "Sui Ishida",
     contributor: "by Sui Ishida",
@@ -2247,7 +2247,7 @@ export const data = [
     publisher: "VIZ Media",
     description:
       "The beginning of the adaptation to Nintendo’s 1998 video game, The Legend of Zelda: Ocarina of Time, is collected here.",
-    price: "55.00",
+    price: 55.0,
     title: "THE LEGEND OF ZELDA: LEGENDARY EDITION, VOL. 1",
     author: "Akira Himekawa",
     contributor: "by Akira Himekawa",
@@ -2308,7 +2308,7 @@ export const data = [
     publisher: "VIZ Media",
     description:
       "Mika is now a full–fledged vampire, just in time to join the battle at Nagoya Airport.",
-    price: "55.00",
+    price: 55.0,
     title: "SERAPH OF THE END, VOL. 11",
     author: "Takaya Kagami and Yamato Yamamoto",
     contributor: "by Takaya Kagami and Yamato Yamamoto",
@@ -2369,7 +2369,7 @@ export const data = [
     publisher: "VIZ Media",
     description:
       "The Commission of Counter Ghoul’s investigations bring them dangerously close to discovering Kaneki’s secret.",
-    price: "55.00",
+    price: 55.0,
     title: "TOKYO GHOUL, VOL. 10",
     author: "Sui Ishida",
     contributor: "by Sui Ishida",
@@ -2430,7 +2430,7 @@ export const data = [
     publisher: "VIZ Media",
     description:
       "This series, originally a web comic, features a hero named Saitama, who can defeat any monster or villain with just one punch.",
-    price: "55.00",
+    price: 55.0,
     title: "ONE-PUNCH MAN, VOL. 1",
     author: "ONE and Yusuke Murata",
     contributor: "by ONE and Yusuke Murata",
@@ -2491,7 +2491,7 @@ export const data = [
     publisher: "VIZ Media",
     description:
       "Light Yagami discovers a supernatural notebook that allows him to kill anyone he has seen by writing their name in it.",
-    price: "55.00",
+    price: 55.0,
     title: "DEATH NOTE BLACK, VOL. 1",
     author: "Tsugumi Ohba and Takeshi Obata",
     contributor: "by Tsugumi Ohba and Takeshi Obata",
@@ -2552,7 +2552,7 @@ export const data = [
     publisher: "Kodansha Comics",
     description:
       "Can the Survey Corps execute Erwin’s final gambit, reclaiming Wall Maria and the secrets of humanity’s past?",
-    price: "55.00",
+    price: 55.0,
     title: "ATTACK ON TITAN, VOL. 20",
     author: "Hajime Isayama",
     contributor: "by Hajime Isayama",

@@ -1,0 +1,8 @@
+fieldset {
+  right: 0;
+  width: 40px;
+  position: fixed;
+  z-index: 100;
+  background: whitesmoke;
+  opacity: 60%;
+}
