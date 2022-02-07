@@ -8,6 +8,8 @@ import {
   NavBtnLink,
 } from "./NavBarElements.js";
 
+import Cart from "../../pages/cart";
+
 const navBar = () => {
   return (
     <>
@@ -26,9 +28,7 @@ const navBar = () => {
           <NavLink to="/signup" activeStyle>
             Sign Up
           </NavLink>
-          <NavLink to="/cart" activeStyle>
-            Cart
-          </NavLink>
+          <Cart />
         </NavMenu>
       </Nav>
     </>
