@@ -11,9 +11,6 @@ const BookCard = ({ image, title, author, description, price, onclick }) => {
       <div className="cartIcon">
         <img src="iconCart.png" alt="" onclick={onclick} />{" "}
       </div>
-      {/* <div className="imageContainer">
-        <img src={image} alt="" />
-      </div> */}
       <div className="infoContainer">
         <div className="tiltle">
           <h3>{title}</h3>{" "}
