@@ -1,9 +1,14 @@
 import BookCard from "../../components/BookCard"
+import PriceFilter from "../../components/priceFilter/PriceFilter"
 // const data = require('../../database/database')
 import {data} from "../../database/database"
 
 function Store() {
-    
+  const [priceFilter, setPriceFilter] = React.useState([0.5, 9]);
+    <PriceFilter 
+    priceFilter={priceFilter}
+            setPriceFilter={setPriceFilter}
+            />
     return (<div style={{display:'flex', flexWrap:'wrap'}}>
          {data.map((book) =>{
              return <BookCard image={book.book_image} title={book.title} author={book.author} description={book.description} price={book.price} onClick={() => alert ("Added to Cart") } />
