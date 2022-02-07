@@ -4,9 +4,14 @@ import PriceFilter from "../../components/PriceFilter/PriceFilter";
 import { data } from "../../database/database";
 import React from "react";
 import AdsOverlay from "../../components/adsOverlay";
+import react from "react";
+import Addtocart from "../../components/AddtoCart";
 
 function Store() {
   const [priceFilter, setPriceFilter] = React.useState([0, 999]);
+  const [title, setTitle] = React.useState("");
+  const [price, setPrice] = React.useState("");
+
   return (
     <div style={{ display: "flex", flexWrap: "wrap" }}>
       <PriceFilter priceFilter={priceFilter} setPriceFilter={setPriceFilter} />
@@ -23,7 +28,9 @@ function Store() {
               author={book.author}
               description={book.description}
               price={book.price}
-              onClick={() => alert("Added to Cart")}
+              onClick={(e) => {
+                Addtocart({ title, price });
+              }}
             />
           );
         })}
