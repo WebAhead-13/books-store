@@ -7,6 +7,7 @@ const BookCard = ({ image, title, author, description, price, onclick }) => {
       style={{
         backgroundImage: `url(${image})`,
       }}
+      onClick={onclick}
     >
       <div className="cartIcon">
         <img src="iconCart.png" alt="" onclick={onclick} />{" "}
