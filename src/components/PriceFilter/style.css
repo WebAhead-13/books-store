@@ -1,8 +1,6 @@
 fieldset {
-  margin-left: 0px;
-  display: inline;
-  height: 40px;
-  width: 100%;
+  right: 0;
+  width: 40px;
   position: fixed;
   z-index: 100;
   background: whitesmoke;

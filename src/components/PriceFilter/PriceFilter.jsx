@@ -9,11 +9,11 @@ function PriceFilter({ priceFilter, setPriceFilter }) {
         <input
           type="range"
           id="min-price"
-          min="10"
+          min="0"
           max="999"
           step="2"
           value={priceFilter[0]}
-          onChange={e => setPriceFilter([e.target.value, priceFilter[1]])}
+          onChange={(e) => setPriceFilter([e.target.value, priceFilter[1]])}
         />
       </label>
       <label htmlFor="max-price">
@@ -21,11 +21,11 @@ function PriceFilter({ priceFilter, setPriceFilter }) {
         <input
           type="range"
           id="max-price"
-          min="10"
+          min="0"
           max="999"
           step="2"
           value={priceFilter[1]}
-          onChange={e => setPriceFilter([priceFilter[0], e.target.value])}
+          onChange={(e) => setPriceFilter([priceFilter[0], e.target.value])}
         />
       </label>
       <label htmlFor="min-price">
@@ -34,7 +34,7 @@ function PriceFilter({ priceFilter, setPriceFilter }) {
           type="number"
           id="min-price"
           value={priceFilter[0]}
-          onChange={e => setPriceFilter([e.target.value, priceFilter[1]])}
+          onChange={(e) => setPriceFilter([e.target.value, priceFilter[1]])}
         />
       </label>
       <label htmlFor="max-price">
@@ -43,7 +43,7 @@ function PriceFilter({ priceFilter, setPriceFilter }) {
           type="number"
           id="max-price"
           value={priceFilter[1]}
-          onChange={e => setPriceFilter([priceFilter[0], e.target.value])}
+          onChange={(e) => setPriceFilter([priceFilter[0], e.target.value])}
         />
       </label>
     </fieldset>
