@@ -4,11 +4,20 @@ import PriceFilter from "../../components/PriceFilter/PriceFilter";
 import { data } from "../../database/database";
 import React from "react";
 import AdsOverlay from "../../components/adsOverlay";
-import react from "react";
 import Addtocart from "../../components/AddtoCart";
 
 function Store() {
   const [priceFilter, setPriceFilter] = React.useState([0, 999]);
+
+  // //
+  // const [username, setUsername] = React.useState("");
+  // const [password, setPassword] = React.useState("");
+
+  // const loginHandler = () => {
+  //   setUser(username);
+  //   setPass(password);
+  // };
+  // //
   const [title, setTitle] = React.useState("");
   const [price, setPrice] = React.useState("");
 
@@ -28,8 +37,18 @@ function Store() {
               author={book.author}
               description={book.description}
               price={book.price}
-              onClick={(e) => {
-                Addtocart({ title, price });
+              onclick={(e) => {
+                // setTitle(e.book.title);
+                // setPrice(e.book.price);
+
+                const title = e.target.getElementsByClassName("title");
+                const price = e.target.getElementsByClassName("price").div;
+                <Addtocart title={title} price={price} />;
+                console.log({ title, price });
+                // const saveBooks = localStorage.getItem("books");
+                // const newBook = `title: ${book.title} price: ${book.price},`;
+                // localStorage.setItem("books", saveBooks);
+                alert("Added to Cart");
               }}
             />
           );

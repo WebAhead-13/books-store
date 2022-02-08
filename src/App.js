@@ -10,6 +10,8 @@ import Store from "./pages/Store/index";
 function App() {
   const [user, setUser] = React.useState(localStorage.getItem("email"));
   const [pass, setPass] = React.useState(localStorage.getItem("password"));
+  const [ti, setTi] = React.useState(localStorage.getItem("title"));
+  const [pr, setP] = React.useState(localStorage.getItem("price"));
 
   React.useEffect(() => {
     if (user) {
@@ -23,7 +25,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/store" element={<Store />} />
+        <Route
+          exact
+          path="/store"
+          element={
+            <Store title={ti} setTitle={setTi} price={pr} setPrice={setP} />
+          }
+        />
 
         <Route
           exact
