@@ -10,8 +10,10 @@ import Store from "./pages/Store/index";
 function App() {
   const [user, setUser] = React.useState(localStorage.getItem("email"));
   const [pass, setPass] = React.useState(localStorage.getItem("password"));
-  const [ti, setTi] = React.useState(localStorage.getItem("title"));
-  const [pr, setP] = React.useState(localStorage.getItem("price"));
+
+  const [items, setItems] = React.useState(
+    JSON.parse(localStorage.getItem("orders")) || []
+  );
 
   React.useEffect(() => {
     if (user) {
@@ -29,7 +31,11 @@ function App() {
           exact
           path="/store"
           element={
-            <Store title={ti} setTitle={setTi} price={pr} setPrice={setP} />
+            <Store
+              items={items}
+              setItems={setItems}
+              // title={ti} setTitle={setTi} price={pr} setPrice={setP}
+            />
           }
         />
 

@@ -1,20 +1,20 @@
 import "./style.css";
 
-const BookCard = ({ image, title, author, description, price, onclick }) => {
+const BookCard = ({ image, title, author, description, price, onClick }) => {
   return (
     <div
       className="cardContainer1"
       style={{
         backgroundImage: `url(${image})`,
       }}
-      onClick={onclick}
     >
       <div className="cartIcon">
-        <img src="iconCart.png" alt="" onclick={onclick} />{" "}
+        <img
+          src="iconCart.png"
+          alt=""
+          onClick={() => onClick({ title, price, quantity: 1 })}
+        />{" "}
       </div>
-      {/* <div className="imageContainer">
-        <img src={image} alt="" />
-      </div> */}
       <div className="infoContainer">
         <div className="tiltle">
           <h3>{title}</h3>{" "}
