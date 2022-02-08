@@ -39,7 +39,9 @@ const Login = ({ user, setUser, pass, setPass }) => {
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <button onClick={loginHandler}>Login</button>
+        <button className="button" onClick={loginHandler}>
+          Login
+        </button>
         <label>
           <input type="checkbox" checked="checked" name="remember" /> Remember
           me

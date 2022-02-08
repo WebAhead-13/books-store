@@ -23,7 +23,12 @@ function Store() {
               author={book.author}
               description={book.description}
               price={book.price}
-              onClick={() => alert("Added to Cart")}
+              onclick={(e) => {
+                const saveBooks = localStorage.getItem("books");
+                const newBook = `title: ${book.title} price: ${book.price},`;
+                localStorage.setItem("books", saveBooks + newBook);
+                alert("Added to Cart");
+              }}
             />
           );
         })}
