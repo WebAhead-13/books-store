@@ -8,8 +8,17 @@ import AdsOverlay from "../../components/adsOverlay";
 function Store({ items, setItems, quantity }) {
   const [priceFilter, setPriceFilter] = React.useState([0, 999]);
   const addItemsHandler = (product) => {
-    console.log();
-    setItems(items.concat(product));
+    const findItem = items.find((items) => items.title === product.title);
+    if (!findItem) setItems((oldItems) => [...oldItems, product]);
+    else {
+      setItems(
+        items.map((item) =>
+          item.title === product.title
+            ? { ...item, quantity: ++item.quantity }
+            : item
+        )
+      );
+    }
   };
   React.useEffect(() => {
     localStorage.setItem("orders", JSON.stringify(items));
