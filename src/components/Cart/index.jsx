@@ -2,7 +2,7 @@ import React from "react";
 import Popup from "reactjs-popup";
 // import 'reactjs-popup/dist/index.css';
 import "./style.css";
- 
+
 
 const removeAllItems = (items) => {
   localStorage.removeItem("selectedBooks");
