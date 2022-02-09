@@ -5,8 +5,24 @@ import { data } from "../../database/database";
 import React from "react";
 import AdsOverlay from "../../components/adsOverlay";
 
-function Store() {
+function Store({ items, setItems, quantity }) {
   const [priceFilter, setPriceFilter] = React.useState([0, 999]);
+  const addItemsHandler = (product) => {
+    const findItem = items.find((items) => items.title === product.title);
+    if (!findItem) setItems((oldItems) => [...oldItems, product]);
+    else {
+      setItems(
+        items.map((item) =>
+          item.title === product.title
+            ? { ...item, quantity: ++item.quantity }
+            : item
+        )
+      );
+    }
+  };
+  React.useEffect(() => {
+    localStorage.setItem("orders", JSON.stringify(items));
+  }, [items]);
   return (
     <div style={{ display: "flex", flexWrap: "wrap" }}>
       <PriceFilter priceFilter={priceFilter} setPriceFilter={setPriceFilter} />
@@ -23,12 +39,10 @@ function Store() {
               author={book.author}
               description={book.description}
               price={book.price}
-              onclick={(e) => {
-                const saveBooks = localStorage.getItem("books");
-                const newBook = `title: ${book.title} price: ${book.price},`;
-                localStorage.setItem("books", saveBooks + newBook);
-                alert("Added to Cart");
-              }}
+
+              onClick={addItemsHandler}
+
+
             />
           );
         })}

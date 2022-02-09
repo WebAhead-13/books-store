@@ -1,14 +1,11 @@
 import BookCard from "../BookCard";
 import { data } from "../../database/database";
 import "./style.css";
-import PriceFilter from "../PriceFilter/PriceFilter";
 
 function AdsOverlay(props) {
-  console.log(
-    1,
-    data.slice(Math.floor(Math.random() * 5), Math.floor(Math.random() * 10))
-  );
+  //If [store props] not empty
   if (props.hide) return " ";
+  //If [store props] empty
   return (
     <div className="adsOn">
       <div>

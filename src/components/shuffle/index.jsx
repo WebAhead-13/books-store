@@ -19,4 +19,4 @@ function shuffle(originalArray) {
   return array;
 }
 
-//
+export default shuffle;

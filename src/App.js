@@ -11,6 +11,10 @@ function App() {
   const [user, setUser] = React.useState(localStorage.getItem("email"));
   const [pass, setPass] = React.useState(localStorage.getItem("password"));
 
+  const [items, setItems] = React.useState(
+    JSON.parse(localStorage.getItem("orders")) || []
+  );
+
   React.useEffect(() => {
     if (user) {
       localStorage.setItem("email", user);
@@ -23,7 +27,17 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/store" element={<Store />} />
+        <Route
+          exact
+          path="/store"
+          element={
+            <Store
+              items={items}
+              setItems={setItems}
+              // title={ti} setTitle={setTi} price={pr} setPrice={setP}
+            />
+          }
+        />
 
         <Route
           exact
