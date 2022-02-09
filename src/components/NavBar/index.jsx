@@ -8,7 +8,7 @@ import {
   NavBtnLink,
 } from "./NavBarElements.js";
 
-import Cart from "../cart";
+import Cart from "../Cart";
 
 const navBar = () => {
   return (

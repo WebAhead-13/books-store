@@ -6,6 +6,7 @@ import Navbar from "./components/NavBar";
 import Home from "./pages/Home/index";
 import Login from "./pages/login/index";
 import Store from "./pages/Store/index";
+import Cart from "./components/Cart"
 
 function App() {
   const [user, setUser] = React.useState(localStorage.getItem("email"));
@@ -34,7 +35,7 @@ function App() {
             <Store
               items={items}
               setItems={setItems}
-              // title={ti} setTitle={setTi} price={pr} setPrice={setP}
+            // title={ti} setTitle={setTi} price={pr} setPrice={setP}
             />
           }
         />
@@ -52,14 +53,13 @@ function App() {
           }
         />
         {/* <Route path="/signup" component={SignUp} /> */}
-        {/* <Route
+        {<Route
           path="/cart"
-          component={() => (
+          element={() => (
             <Cart items={JSON.parse(localStorage.getItem("selectedItems"))} />
           )}
         />
-        <Route Component={NotFoundPage} />
-        <Redirect to="/404" /> */}
+        }
       </Routes>
     </Router>
   );
