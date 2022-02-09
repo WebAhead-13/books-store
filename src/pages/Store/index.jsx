@@ -39,10 +39,7 @@ function Store({ items, setItems, quantity }) {
               author={book.author}
               description={book.description}
               price={book.price}
-
               onClick={addItemsHandler}
-
-
             />
           );
         })}
