@@ -10,7 +10,7 @@ import {
 
 import Cart from "../Cart";
 
-const navBar = () => {
+const navBar = ({items}) => {
   return (
     <>
       <Nav>
@@ -28,7 +28,7 @@ const navBar = () => {
           <NavLink to="/signup" activeStyle>
             Sign Up
           </NavLink>
-          <Cart />
+          <Cart items = {items} />
         </NavMenu>
       </Nav>
     </>

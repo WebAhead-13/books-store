@@ -6,7 +6,8 @@ import Navbar from "./components/NavBar";
 import Home from "./pages/Home/index";
 import Login from "./pages/login/index";
 import Store from "./pages/Store/index";
-import Cart from "./components/Cart"
+import Cart from "./components/Cart";
+
 
 function App() {
   const [user, setUser] = React.useState(localStorage.getItem("email"));
@@ -25,9 +26,10 @@ function App() {
 
   return (
     <Router>
-      <Navbar />
+      <Navbar items={items} />
       <Routes>
         <Route exact path="/" element={<Home />} />
+
         <Route
           exact
           path="/store"
@@ -52,14 +54,6 @@ function App() {
             />
           }
         />
-        {/* <Route path="/signup" component={SignUp} /> */}
-        {<Route
-          path="/cart"
-          element={() => (
-            <Cart items={JSON.parse(localStorage.getItem("selectedItems"))} />
-          )}
-        />
-        }
       </Routes>
     </Router>
   );
