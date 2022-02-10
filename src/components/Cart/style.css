@@ -35,3 +35,52 @@
   border-radius: 18px;
   border: 1px solid #cfcece;
 }
+
+.cartContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.prodContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.title {
+  width: 70%;
+}
+
+.price {
+  width: 15%;
+}
+
+.quantity {
+  width: 15%;
+}
+
+.title1 {
+  width: 70%;
+}
+
+.price1 {
+  width: 15%;
+}
+
+.quantity {
+  width: 15%;
+}
+
+.total {
+  display: flex;
+  align-self: flex-end;
+}
