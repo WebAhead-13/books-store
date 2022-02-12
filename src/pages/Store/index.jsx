@@ -9,8 +9,10 @@ function Store({ items, setItems, quantity }) {
   const [priceFilter, setPriceFilter] = React.useState([0, 999]);
   const addItemsHandler = (product) => {
     const findItem = items.find((items) => items.title === product.title);
-    if (!findItem) setItems((oldItems) => [...oldItems, product]);
-    else {
+    if (!findItem) {
+      setItems((oldItems) => [...oldItems, product]);
+      alert("added to cart");
+    } else {
       setItems(
         items.map((item) =>
           item.title === product.title
@@ -18,6 +20,8 @@ function Store({ items, setItems, quantity }) {
             : item
         )
       );
+      <addPrice />;
+      alert("added to cart");
     }
   };
   React.useEffect(() => {
